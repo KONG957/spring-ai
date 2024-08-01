@@ -1,0 +1,14 @@
+logs
+.idea
+*.iml
+**/target
+**/.flattened-pom.xml
+.DS_Store
+/.settings/
+*.project
+*.DS_Store
+*.classpath
+*.log
+/api-parent.ipr
+/api-parent.iws
+*.gz
