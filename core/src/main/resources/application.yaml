@@ -1,0 +1,16 @@
+server:
+  port: 8081
+app:
+  name: spring-ai
+spring:
+  ai:
+    ollama:
+      enabled: true
+      base-url: http://103.242.3.252:11434
+      chat:
+        options:
+          format: json
+          model: llama3
+          num-batch: 2048
+
+

@@ -6,48 +6,17 @@
     <parent>
         <groupId>love.baihao</groupId>
         <artifactId>spring-ai</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>core</artifactId>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-
-<!--    <dependencyManagement>-->
-<!--        <dependencies>-->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.ai</groupId>-->
-<!--                <artifactId>spring-ai-bom</artifactId>-->
-<!--                <version>${spring.ai}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
-<!--        </dependencies>-->
-<!--    </dependencyManagement>-->
-
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-ollama-spring-boot-starter</artifactId>
-            <version>${spring.ai}</version>
-        </dependency>
-        <!-- Spring Boot Starter Web, includes Tomcat and spring-webmvc -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- Spring Boot Starter Test for testing -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>love.baihao</groupId>
+            <artifactId>ollama-llm</artifactId>
+            <version>${revision}</version>
         </dependency>
     </dependencies>
 
